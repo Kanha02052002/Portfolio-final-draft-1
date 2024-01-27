@@ -112,29 +112,6 @@ li {
 }
 
 
-#btn {
-    position: relative;
-    top: 20px;
-    left: -10px;
-    border-radius: 10px;
-    font-family: 'Rowdies';
-    font-weight: bolder;
-    font-size: 14px;
-    height: 45px;
-    color: var(--clr-0);
-    cursor: pointer;
-    width: 170px;
-    margin-left: 10px;
-    margin-right: 10px;
-    background-color: black;
-    border: 2px solid var(--clr-0);
-    transition:background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out,color 0.2s ease-in-out;
-}
-#btn:hover{
-    color: black;
-    background-color: var(--clr-0) ;
-    box-shadow: 0px 0px 25px var(--clr-0);
-}
 
 .web-list{
     list-style-type: none;
@@ -283,4 +260,23 @@ li {
 .footer-github{
     text-decoration: none;
     color: var(--clr-0);
+}
+.download-resume{
+    position: relative;
+    border: 2px solid var(--clr-0);
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-family: 'Rowdies';
+    font-weight: bolder;
+    font-size: 20px;
+    color: var(--clr-0);
+    top: 28px;
+    left: -5px;
+    transition:box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out, color 0.2s ease;
+}
+.download-resume:hover{
+    background-color: var(--clr-0);
+    box-shadow: 0 0 20px var(--clr-0);
+    color: #000;
 }

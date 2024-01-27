@@ -29,7 +29,7 @@ body,
 html {
     background-color: var(--clr-8);
     color: #fff;
-    background-image: url('background/2.png');
+    background-image: url('background/4.jpg');
     z-index: -1;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -100,25 +100,6 @@ li {
     text-decoration: dashed;
 }
 
-#btn {
-    border-radius: 5px;
-    font-family: 'Rowdies';
-    font-weight: bolder;
-    font-size: 14px;
-    height: 45px;
-    color: black;
-    cursor: pointer;
-    width: 170px;
-    margin-left: 10px;
-    margin-right: 10px;
-    background-color: var(--clr-7);
-    border: none;
-    transition: box-shadow 0.3s ease-in-out;
-}
-#btn:hover{
-    border: 1px solid var(--clr-2);
-    box-shadow: 5px 5px 10px #E4F1FF;
-}
 
 /* common */
 .nav-title-active{
