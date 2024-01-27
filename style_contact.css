@@ -29,7 +29,7 @@ body,
 html {
     background-color: var(--clr-8);
     color: #fff;
-    background-image: url('background/3.png');
+    background-image: url('background/contact_section.jpg');
     z-index: -1;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -54,7 +54,10 @@ html {
     margin-right: 15px;
 
 }
-
+.hh{
+    display: inline-flex;
+    color:var(--clr-0);
+}
 .nav-title{
     color: #fff;
     text-decoration: none;
@@ -97,6 +100,25 @@ li {
     text-decoration: dashed;
 }
 
+#btn {
+    border-radius: 5px;
+    font-family: 'Rowdies';
+    font-weight: bolder;
+    font-size: 14px;
+    height: 45px;
+    color: black;
+    cursor: pointer;
+    width: 170px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: var(--clr-7);
+    border: none;
+    transition: box-shadow 0.3s ease-in-out;
+}
+#btn:hover{
+    border: 1px solid var(--clr-2);
+    box-shadow: 5px 5px 10px #E4F1FF;
+}
 .nav-title-active{
     padding-left:5px ;
     padding-top:5px ;
@@ -115,25 +137,6 @@ li {
     color: var(--clr-0);
     box-shadow: none;
 }
-
-
-.lang{
-    text-align: center;
-    position: relative;
-    border: 2px solid var(--clr-0);
-    border-radius: 5px;
-    top: 50px;
-    left: 50px;
-}
-.container{
-    font-family: 'Exo 2';
-    font-size: 24px;
-    font-weight: bold;
-}
-
-
-
-
 .foot-bar{
     font-family: 'Exo 2';
     color: #fff;
@@ -146,4 +149,103 @@ li {
 .footer-github{
     text-decoration: none;
     color: var(--clr-0);
+}
+    
+
+
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 40px;
+    }
+    .content{
+        padding: 30px;
+        border: 2px solid var(--clr-0);
+        border-radius: 10px;
+        font-family: 'Exo 2';
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+input{
+    text-align: center;
+    height: 25px;
+    width: 220px;
+    background-color: #000;
+    color: var(--clr-0);
+    font-weight: bold;
+    border: 2px solid var(--clr-0);
+    border-radius: 5px;
+    padding-left: 5px;
+    transition: box-shadow 0.2s ease-in-out,border-color 0.2s ease-in-out;
+}
+input::placeholder{
+    font-family: 'Exo 2';
+    font-size: 12px;
+}
+input:focus{
+    box-shadow: 0px 0px 20px var(--clr-0);
+    border-color: var(--clr-0);
+}
+
+#email{
+    text-align: center;
+    height: 25px;
+    width: 300px;
+    background-color: #000;
+    color: var(--clr-0);
+    font-weight: bold;
+    border: 2px solid var(--clr-0);
+    border-radius: 5px;
+    padding-left: 5px;
+    transition: box-shadow 0.2s ease-in-out,border-color 0.2s ease-in-out;
+}
+#email::placeholder{
+    font-family: 'Exo 2';
+    font-size: 12px;
+}
+#email:focus{
+    box-shadow: 0px 0px 20px var(--clr-0);
+    border-color: var(--clr-0);
+}
+textarea{
+    text-align: center;
+    width: 650px;
+    height: 200px;
+    background-color: #000;
+    color: var(--clr-0);
+    border: 2px solid var(--clr-0);
+    border-radius: 5px;
+    padding-left: 5px;
+    transition: box-shadow 0.2s ease-in-out,border-color 0.2s ease-in-out;
+}
+textarea:focus{
+    box-shadow: 0px 0px 20px var(--clr-0);
+    border-color: var(--clr-0);
+}
+textarea::placeholder{
+    font-family: 'Exo 2';
+    font-size: 12px;
+}
+button{
+    font-family: 'Exo 2';
+    font-size: 18px;
+    color: #000;
+    background-color: var(--clr-0);
+    border: 2px solid var(--clr-0);
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: box-shadow 0.2s ease-in-out,color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+button:hover{
+    box-shadow: 0px 0px 15px var(--clr-0);
+    color: var(--clr-0);
+    background-color: #000;
 }

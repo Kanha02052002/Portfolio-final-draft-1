@@ -29,7 +29,7 @@ body,
 html {
     background-color: var(--clr-8);
     color: #fff;
-    background-image: url('background/3.png');
+    background-image: url('background/2.png');
     z-index: -1;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -54,7 +54,10 @@ html {
     margin-right: 15px;
 
 }
-
+.hh{
+    display: inline-flex;
+    color:var(--clr-0);
+}
 .nav-title{
     color: #fff;
     text-decoration: none;
@@ -97,6 +100,25 @@ li {
     text-decoration: dashed;
 }
 
+#btn {
+    border-radius: 5px;
+    font-family: 'Rowdies';
+    font-weight: bolder;
+    font-size: 14px;
+    height: 45px;
+    color: black;
+    cursor: pointer;
+    width: 170px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: var(--clr-7);
+    border: none;
+    transition: box-shadow 0.3s ease-in-out;
+}
+#btn:hover{
+    border: 1px solid var(--clr-2);
+    box-shadow: 5px 5px 10px #E4F1FF;
+}
 .nav-title-active{
     padding-left:5px ;
     padding-top:5px ;
@@ -116,24 +138,87 @@ li {
     box-shadow: none;
 }
 
-
-.lang{
-    text-align: center;
+.card {
+    box-shadow: 0px 0px 20px var(--clr-0);
     position: relative;
-    border: 2px solid var(--clr-0);
-    border-radius: 5px;
-    top: 50px;
-    left: 50px;
-}
-.container{
-    font-family: 'Exo 2';
-    font-size: 24px;
+    top: 80px;
+    left: -450px;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+  }
+  .card-1 {
+    box-shadow: 0px 0px 20px var(--clr-0);
+    position: relative;
+    top: -225px;
+    left: 0px;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+  }
+  .card-2 {
+    box-shadow: 0px 0px 20px var(--clr-0);
+    position: relative;
+    top: -530px;
+    left: 450px;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+  }
+  .card-1 button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  .card-2 button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+
+
+.btn-git{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
     font-weight: bold;
+    font-family: 'Exo 2';
+    border-radius: 5px;
+    border: 1px solid var(--clr-0);
+    color: #000;
+    background-color: var(--clr-0);
+    transition: color 0.2s ease-in-out,background-color 0.2s ease-in-out,border 0.2s ease-in-out;
 }
+.btn-git:hover{
+    color: var(--clr-0);
+    background-color: #000;
+    border: 1px solid var(--clr-0);
 
-
-
-
+}
 .foot-bar{
     font-family: 'Exo 2';
     color: #fff;
