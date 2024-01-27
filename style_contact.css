@@ -213,6 +213,7 @@ input:focus{
 textarea{
     text-align: center;
     width: 650px;
+    font-family: 'Exo 2';
     height: 200px;
     background-color: #000;
     color: var(--clr-0);
@@ -227,7 +228,7 @@ textarea:focus{
 }
 textarea::placeholder{
     font-family: 'Exo 2';
-    font-size: 12px;
+    font-size: 18px;
 }
 button{
     font-family: 'Exo 2';
